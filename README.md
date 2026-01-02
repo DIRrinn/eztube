@@ -1,2 +1,2 @@
-# eztube
+# eztube (WIP)
 Easy gui app for downloading Youtube videos. The next generation of CurTube
