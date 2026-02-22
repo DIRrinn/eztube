@@ -51,8 +51,11 @@ def download(url, res, symbols_remove, convert, output):
     ys.download(output_path=output, filename=file + res)
     return file
 
-def get_title():
-    url = get_configs()
-    yt = YouTube(url[0])
+def get_title(url):
+    yt = YouTube(url)
     return yt.title
+
+def get_thumbnail(url):
+    yt = YouTube(url)
+    return yt.thumbnail_url
 
