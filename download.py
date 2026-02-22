@@ -55,6 +55,10 @@ def get_title(url):
     yt = YouTube(url)
     return yt.title
 
+def get_author(url):
+    yt = YouTube(url)
+    return yt.author
+
 def get_thumbnail(url):
     yt = YouTube(url)
     return yt.thumbnail_url
